@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1 style="padding-bottom: 10px;">Weather ForeCast</h1>
+        <form id="weatherForm" class="search">
+            <input type="text" id="cityInput" placeholder="Enter city" required>
+            <button type="button" id="getWeatherButton"> 
+                <img src="images/search.png" alt="Search">
+            </button>
+        </form>
+<div class="error">
+    
+</div>
+        <div id="weatherResult" class="weather">
+            <img src="images/clouds.png" class="weather-icon" alt="Weather Icon">
+            <h3 class="descpt">Weather description</h3>
+            <h1 class="Temperature">200°C</h1>
+            <h2 class="city">Lusaka</h2>
+            <div class="detail">
+                <div class="col">
+                    <img src="images/humidity.png" alt="Humidity Icon">
+                    <p class="Humidity">50%</p>
+                    <p class="we">Humidity</p>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="Wind Icon">
+                    <p class="wind">15 m/s</p>
+                    <p class="wed">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
